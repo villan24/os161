@@ -52,6 +52,7 @@
 #include "autoconf.h"  // for pseudoconfig
 #include "hello.c"
 
+void hello(void);
 
 /*
  * These two pieces of data are maintained by the makefiles and build system.
