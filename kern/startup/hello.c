@@ -3,7 +3,8 @@
 #include <test.h>
 
 void
-hello(void)
+hello()
 {
 	kprintf("Hello World\n");
+	return 0;
 }
