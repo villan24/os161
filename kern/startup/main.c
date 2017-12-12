@@ -50,7 +50,7 @@
 #include <test.h>
 #include <version.h>
 #include "autoconf.h"  // for pseudoconfig
-#include "hello.c"
+
 
 /*
  * These two pieces of data are maintained by the makefiles and build system.
