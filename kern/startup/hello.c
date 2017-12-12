@@ -2,8 +2,6 @@
 #include <lib.h>
 #include <test.h>
 
-void hello(void);
-
 void hello(void)
 {
 	kprintf("Hello World\n");
