@@ -116,7 +116,7 @@ boot(void)
 	kprintf("Device probe...\n");
 	KASSERT(curthread->t_curspl > 0);
 	mainbus_bootstrap();
-	hello();
+	
 	KASSERT(curthread->t_curspl == 0);
 	/* Now do pseudo-devices. */
 	pseudoconfig();
@@ -147,7 +147,7 @@ shutdown(void)
 {
 
 	kprintf("Shutting down.\n");
-	
+	hello();
 	vfs_clearbootfs();
 	vfs_clearcurdir();
 	vfs_unmountall();
