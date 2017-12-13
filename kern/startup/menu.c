@@ -563,7 +563,7 @@ static struct {
 
 	/* base system tests */
 	{ "at",		arraytest },
-	{ "mt",         mytest },
+	//{ "mt",         mytest },
 	{ "bt",		bitmaptest },
 	{ "km1",	malloctest },
 	{ "km2",	mallocstress },
