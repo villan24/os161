@@ -452,7 +452,8 @@ cmd_opsmenu(int n, char **a)
 }
 
 static const char *testmenu[] = {
-	"[at]  Array test                    ",
+	"[at]  Array test		",
+	"[mt]  My test                    ",
 	"[bt]  Bitmap test                   ",
 	"[km1] Kernel malloc test            ",
 	"[km2] kmalloc stress test           ",
@@ -562,6 +563,7 @@ static struct {
 
 	/* base system tests */
 	{ "at",		arraytest },
+	{ "mt",         mytest },
 	{ "bt",		bitmaptest },
 	{ "km1",	malloctest },
 	{ "km2",	mallocstress },
